@@ -23,7 +23,7 @@ int main(int argc, char *argv[]){
 	fileOneName = argv[1];
 	}else{
 		std::cout<< "USAGE: " << std::endl;
-		std::cout<< "./compare [filename1] [filename2] (optional) {--show-output}" << std::endl;
+		std::cout<< "./compare [filename1] [filename2] (optional) {--show}" << std::endl;
 		return 1;
 	}
 	if(argv[2]){
@@ -31,7 +31,7 @@ int main(int argc, char *argv[]){
 	}else{
 		if(fileOneName != "--help"){
 			std::cout<< "USAGE: " << std::endl;
-			std::cout<< "./compare [filename1] [filename2] (optional) {--show-output}" << std::endl;
+			std::cout<< "./compare [filename1] [filename2] (optional) {--show}" << std::endl;
 			return 1;
 		}
 	}
@@ -39,9 +39,9 @@ int main(int argc, char *argv[]){
 		std::cout<< "Compare Utils 1.0" << std::endl;
 		std::cout<< "==============================" << std::endl;
 		std::cout<< "USAGE: " << std::endl;
-		std::cout<< "./compare [filename1] [filename2] (optional) {--show-output}" << std::endl;
+		std::cout<< "./compare [filename1] [filename2] (optional) {--show}" << std::endl;
 		std::cout<< "'--show-output' shows exactly what is diffrent." << std::endl;
-		std::cout<< "Commands:" << std::endl;
+		std::cout<< "Extra:" << std::endl;
 		std::cout<< "* --help = shows this page and exits" << std::endl;
 		std::cout<< "==============================" << std::endl;
 		return 0;
