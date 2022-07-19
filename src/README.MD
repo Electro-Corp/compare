@@ -1,0 +1,3 @@
+# Files
+* `compare.cpp` (the main file)
+* `compile.sh` (shell script to compile, can be easily modified into other languages like .bat) i start using makefiles...
